@@ -1,14 +1,14 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, contactInfo } from "../../portfolio";
+import { Fade } from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -57,8 +57,8 @@ export default function Contact() {
               <DisplayLottie animationData={email} />
             ) : (
               <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                alt="Contact me"
+                src={require("../../assets/images/contactme.png")}
               ></img>
             )}
           </div>

@@ -1,14 +1,14 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { illustration, skillsSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
   }
@@ -21,8 +21,8 @@ export default function Skills() {
               <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                alt="Cecy's art sample"
+                src={require("../../assets/images/robotica.png")}
               ></img>
             )}
           </div>

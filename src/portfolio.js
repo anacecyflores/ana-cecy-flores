@@ -16,14 +16,14 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true, // Set to false to use static SVG
+  animated: false, // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Cecy Flores",
   title: "Hi all, I'm Cecy",
   subTitle: emoji(
-    "A passionate Full Stack Web Developer 🚀 having an experience of building Webapplications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Web Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other libraries and frameworks.💻"
   ),
   resumeLink:
     "https://docs.google.com/document/d/19MUsZhGVGP3pTCabNHVSbrA6PK4tHVW0yyaRoCZI0vo/edit?usp=sharing", // Set to empty to hide the button
@@ -45,13 +45,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About me ",
-  subTitle: "Currently transitioning from educationto the world of tech",
+  subTitle: "Currently transitioning from educationto the world of tech!",
   skills: [
     emoji(
-      "⚡ developing applications and creating projects to continue to grow!"
+      "⚡ Developing applications and creating projects to continue to grow!"
     ),
     emoji("⚡ Currently pursuing an AWS Cloud Practirioner certification"),
-    emoji("⚡ Check out my latest projects and collaborations"),
+    emoji("⚡ Check out my latest projects and collaborations below"),
+
+    emoji("⚡ I enjoy creating water-color art"),
+
+    emoji("⚡ I am learning e-commerce by building my own site!"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -122,8 +126,7 @@ const educationInfo = {
       duration: "March 2022 - September 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Learned a variety of fullstack components that drove my career switch from education to web development.",
       ],
     },
     {
@@ -133,7 +136,9 @@ const educationInfo = {
         "Bachelor of Science in History & Bachelor of Science in Secondary Education",
       duration: "August 2015 - May 2019",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      descBullets: [
+        "Graduated top of my glass with a disctinction from the History Departmen and 2015 A Golden Apple Scholar.",
+      ],
     },
   ],
 };
@@ -173,18 +178,18 @@ const workExperiences = {
       descBullets: ["Lupita’s HVAC", "Arzet Home Improvement"],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Front-End Developer Freelance",
+      company: "MalagaCo Rental",
+      companylogo: require("./assets/images/computerLogo.jpg"),
+      date: "April 2023 – Present",
+      desc: "I have hands-on experience in developing and designing user-friendly websites and web applications using React. Consistently met or exceeded project deadlines, with an average completion time of one week for each project.",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Bilingual Resource, History Teacher",
+      company: "Palatine School District 15",
+      companylogo: require("./assets/images/D15Logo.png"),
+      date: "August 2021 – Present",
+      desc: "Transitioning from an educator background into web-development.",
     },
   ],
 };
@@ -194,35 +199,39 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "On-going Projects",
+  subtitle: "Check out my current projects.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/worldviewLogo.png"),
+      projectName: "Worldview",
+      projectDesc:
+        "WorldView is an educational application built with React.js, GraphQL, MongoDB, Three.js, and React-three-fiber. It serves as a visual educational resource, allowing students of all ages to explore historical moments from different centuries worldwide. Sign up to save your favorite historical moments for later reference.As a history educator, I always struggled to find engaging and fun resources for my students to access geography and history at the same time. By creating this, I am developing a program that future students can use to learn a bout events that happened though out history based on key words such as wars, revolutions or even inventions. They will also be able to learn history about a specific country or decade by navigating this react-based globe! Super ecxited to continue to work on this program.🌎",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: " https://my-world-view.herokuapp.com/ ",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cecyStudio.png"),
+      projectName: "Cecy Studio",
+      projectDesc:
+        "With a focus on leveraging my personal art, I have honed my skills in creating visually appealing Shopify-based e-commerce sites that captivate audiences and drive sales.In my journey as an e-commerce entrepreneur, I have demonstrated proficiency in various aspects of online business. From setting up and customizing Shopify stores to implementing effective marketing strategies, I have developed a well-rounded skill set that allows me to navigate the dynamic world of e-commerce with confidence.Driven by a desire to continuously improve, I embrace digital marketing techniques to promote my artwork and drive traffic to my e-commerce site. Through social media platforms and content creation, I leverage my online presence to connect with art enthusiasts, share insights into my artistic process, and foster a loyal customer base. With a keen eye for analytics, I am adept at monitoring and analyzing key performance metrics to make data-driven decisions. By understanding customer behavior and identifying trends, I optimize my marketing strategies and product offerings, ensuring continued growth and success.",
+
+      Description: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/",
+          url: "www.cecystudio.com",
         },
       ],
     },
@@ -234,56 +243,47 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Check out my sample work  "),
+  subtitle: "Landing pages and more !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Lupita’s HVAC",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "A Landing Page for a Midwest Development client using Next.js and TypeScript. This responsive website showcases the client's HVAC services and provides a user-friendly experience for visitors to learn more about their offerings.",
+      image: require("./assets/images/lupitaLogo.png"),
+      imageAlt: "Lupita's HVAC Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+          name: "Visit site",
+          url: "lupitahvac.com",
         },
       ],
     },
     {
-      title: "Google Assistant Action",
+      title: "Arzet Home Improvement-",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        " Landing Page for a Midwest Development client, utilizing HTML, CSS, SCSS, and JavaScript. Additionally, I incorporated other tools such as Netlify and gulp.js to optimize the project's deployment and build process. This showcases the client's services and provides a visually appealing and user-friendly experience for potential customers.",
+      image: require("./assets/images/arzetLogo.png"),
+      imageAlt: "Arzet Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+          name: "Visit site",
+          url: "arzethomeimprovement.com",
         },
       ],
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Get Higher",
+      subtitle:
+        "This project utilized the Google Job Search API to provide location and career-based job postings, along with a personalized aptitude test for recommending suitable career options. It also features a user login system for saving progress, information, and job interests in our database, along with integrated components like Google Maps, an individualized quiz, a calendar for reminders, and a dashboard, creating a comprehensive job-seeking experience within a single platform.",
+      image: require("./assets/images/getHigherLogo.png"),
+      imageAlt: "Get Higher Logo",
       footerLink: [
-        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/",
+          url: "https://get-higher.herokuapp.com ",
         },
       ],
     },
@@ -312,7 +312,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,20 +331,18 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Check out my favorite Podcast 🎙️"),
+  subtitle: "Murder Mysteries",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Cecy-Flores-from-Karachi--Pakistan-e9givv/a-a15itvo",
-  ],
-  display: true, // Set false to hide this section, defaults to true
+  podcast: ["https://open.spotify.com/show/1cpyLfDHP1cNnyOb478qrts"],
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -358,7 +356,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
