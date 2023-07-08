@@ -124,7 +124,7 @@ const educationInfo = {
       logo: require("./assets/images/northwesternLogo.png"),
       subHeader: "Fullstack Web Development Bootcamp",
       duration: "March 2022 - September 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "3- Month bootcamp & independant study for AWS certification",
       descBullets: [
         "Learned a variety of fullstack components that drove my career switch from education to web development.",
       ],
@@ -135,7 +135,7 @@ const educationInfo = {
       subHeader:
         "Bachelor of Science in History & Bachelor of Science in Secondary Education",
       duration: "August 2015 - May 2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "History & Education Major with minor in Spanish, ESL and Economics",
       descBullets: [
         "Graduated top of my glass with a disctinction from the History Departmen and 2015 A Golden Apple Scholar.",
       ],
