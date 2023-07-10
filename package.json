@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "www.anacecyflores.com",
+  "name": "cecyflores",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.6.0",
     "prettier": "^2.8.0"
   }
